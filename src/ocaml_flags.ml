@@ -5,7 +5,6 @@ let default_ocamlc_flags   = Utils.g
 let default_ocamlopt_flags = Utils.g
 
 let dev_mode_warnings =
-  "@a" ^
   String.concat ~sep:""
     (List.map ~f:(sprintf "-%d")
        [ 4
